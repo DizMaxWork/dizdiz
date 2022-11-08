@@ -250,3 +250,29 @@ body{
 	left: 0;
 	top: 15px;
 }
+.project-purple-ball{
+    content: '';
+    position: absolute;
+    width: 403px;
+    height: 488px;
+    background-image: url(../img/project-ball.svg);
+	left: 0;
+}
+.red-arrow-2::before{
+    content: '';
+    position: absolute;
+    width: 72px;
+    height: 47px;
+    background-image: url(../img/red-arrow-2.svg);
+	left: 0;
+	top: 0;
+}
+.red-arrow-3::after{
+    content: '';
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    background-image: url(../img/red-arrow-3.svg);
+	right: -14px;
+	bottom: 4px;
+}
